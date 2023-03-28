@@ -1,11 +1,11 @@
 import config from '@/config/config.default'
 export default {
-    login: '/clap/authority/login',
-    register: '/clap/authority/register',
-    registerByOrganUser: '/clap/authority/registerByOrganUser',
-    changePwd: '/clap/authority/changePwd',
-    resetPwd: '/clap/authority/resetPwd',
-    registerOrgan: '/clap/authority/registerOrgan',
+    login: '/uban/authority/login',
+    register: '/uban/authority/register',
+    registerByOrganUser: '/uban/authority/registerByOrganUser',
+    changePwd: '/uban/authority/changePwd',
+    resetPwd: '/uban/authority/resetPwd',
+    registerOrgan: '/uban/authority/registerOrgan',
     file: {
         preview: config.host+'/clap/file/preview/',
         download: config.host+'/clap/file/download/',
